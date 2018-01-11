@@ -1,0 +1,29 @@
+.table {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table__header {
+    text-align: center;        
+    color: #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;    
+}
+
+.table__line {
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.table__line--img {
+    width: 10%;
+    border: 1px solid #c0c0c0;
+}
+
+.foward-button {
+    color: #fff;
+    background-color: #1BB869;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
