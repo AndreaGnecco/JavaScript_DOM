@@ -19,11 +19,16 @@
     border: 1px solid #c0c0c0;
 }
 
+.paragraph {
+    text-align: right;
+}
+
 .foward-button {
+    font-size: 1.1em;
     color: #fff;
-    background-color: #1BB869;
-    padding: 10px;
-    border-radius: 10px;
+    background: #1BB869;
+    padding: 15px;
+    border-radius: 5px;
     border: none;
 }
 
