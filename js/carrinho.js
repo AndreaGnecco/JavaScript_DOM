@@ -72,6 +72,8 @@ function listarProdutos(){
     console.log(total);
     document.getElementById("products").innerHTML = template;
     document.getElementById("total-geral").innerHTML = "Subtotal: <strong>R$ </strong>" + total;
+
+    
 }
 
 function validaSexo(_id){
