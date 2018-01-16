@@ -26,44 +26,67 @@
                 <span class="title__cart">Total</span>
             </div>
 
-            <div id="products">
-
-            </div>
+            <div id="products"></div>
 
             <div>
-                <span id="total-geral"> Subtotal: R$523</span>
-                <span>
-                    <i></i> Continue Shopping</span>
+                Subtotal: <strong>R$ <span id="total-geral"></span></strong>
+                <span><i></i> Continue Shopping</span>
                 <button type="submit">Shipping Info</button>
             </div>
             <div class="clear"></div>
         </section>
         <section>
-            <div class="shipping__info">
-                <span class="shipping__info--modify">Shipping Adress</span>
-                <span class="shipping__info--modify">Contact Info</span>
-            </div>
-            <div>
-                <div>
-                    <input type="" placeholder="Country">
-                    <input type="" placeholder="City">
-                    <input type="text" placeholder="State/Region/Provice">
-                    <input type="text" placeholder="Zip Code">
-                    <input type="text" placeholder="Address 1">
-                    <input type="text" placeholder="Address 2">
-                </div>
-                <div>
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <input type="text">
-                    <div>
-                        <span>Shipping Method</span>
-                        <input type="checkbox">
-                        <input type="checkbox">
-                    </div>
-                </div>
+            <div class="linha">
+                <div class="esquerda">
+                    <h3>Shipping Address</h3>
+                    <form action="">
+                        <select class="inputs" name="input_country" id="selection_country">
+        <option value="0">Select</option>
+        <option value="1">Brasil</option>
+        <option value="2">USA</option>
+    </select>
+                        <br>
+                        <select class="inputs" name="input_city" id="selection_city">
+        <option value="0"></option>
+    </select>
+                        <br>
+                        <input class="inputs" type="text" name="state" id="state" placeholder="State / Region / Province">
+                        <br>
+                        <input class="inputs" type="text" name="zip" id="zip" placeholder="Zip Code">
+                        <br>
+                        <input class="inputs" type="text" name="ad1" id="ad1" placeholder="Address 1">
+                        <br>
+                        <input class="inputs" type="text" name="ad2" id="ad2" placeholder="Address 2">
 
+                </div>
+                <div class="direita">
+                    <h3>Contact Info</h3>
+
+                    <input class="inputs" type="text" name="name" id="name" placeholder="First Name">
+                    <input class="inputs" type="text" name="lastname" id="lastname" placeholder="Last Name">
+                    <input class="inputs" type="email" name="email" id="email" placeholder="Email">
+                    <input class="inputs" type="tel" name="phone" id="phone" placeholder="Phone">
+
+                    <div class="clear"></div>
+
+                    <h3>Shipping Method</h3>
+                    <div class="container">
+
+
+                        <div class="shipping">
+                            <input type="radio" name="s_input" id="s_input">$10 Standard
+                            <br>
+                            <span>(2 - 3 weeks)</span>
+                        </div>
+                        <div class="shipping">
+                            <input type="radio" name="u_input" id="u_input">$20 Ultraspeed
+                            <br>
+                            <span>(1 week)</span>
+                        </div>
+                    </div>
+                    <button type="submit">Payment Method</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
